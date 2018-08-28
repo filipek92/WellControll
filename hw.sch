@@ -22207,22 +22207,31 @@ Jan Kandziora &amp;lt;jjj@gmx.de&amp;gt;</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="GSX-533">
+<library name="crystal-golledge" urn="urn:adsk.eagle:library:4881003">
+<description>Generated from &lt;b&gt;hw.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
 <packages>
-<package name="5032">
-<smd name="4" x="-1.9" y="1.15" dx="1.6" dy="1.3" layer="1"/>
-<smd name="3" x="1.9" y="1.15" dx="1.6" dy="1.3" layer="1"/>
-<smd name="2" x="1.9" y="-1.15" dx="1.6" dy="1.3" layer="1"/>
+<package name="5032" urn="urn:adsk.eagle:footprint:4881004/2" library_version="2">
+<wire x1="-2.55" y1="1.65" x2="2.55" y2="1.65" width="0.127" layer="21"/>
+<wire x1="2.55" y1="1.65" x2="2.55" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="2.55" y1="-1.65" x2="-2.55" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="-2.55" y1="-1.65" x2="-2.55" y2="1.65" width="0.127" layer="21"/>
 <smd name="1" x="-1.9" y="-1.15" dx="1.6" dy="1.3" layer="1"/>
-<wire x1="-2.55" y1="1.65" x2="2.55" y2="1.65" width="0.127" layer="22"/>
-<wire x1="2.55" y1="1.65" x2="2.55" y2="-1.65" width="0.127" layer="22"/>
-<wire x1="2.55" y1="-1.65" x2="-2.55" y2="-1.65" width="0.127" layer="22"/>
-<wire x1="-2.55" y1="-1.65" x2="-2.55" y2="1.65" width="0.127" layer="22"/>
+<smd name="2" x="1.9" y="-1.15" dx="1.6" dy="1.3" layer="1"/>
+<smd name="3" x="1.9" y="1.15" dx="1.6" dy="1.3" layer="1"/>
+<smd name="4" x="-1.9" y="1.15" dx="1.6" dy="1.3" layer="1"/>
 <text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="5032" urn="urn:adsk.eagle:package:4881006/2" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="5032"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="Q-SHIELD2">
+<symbol name="Q-SHIELD2" urn="urn:adsk.eagle:symbol:4881005/1" library_version="2">
 <wire x1="2.286" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
 <wire x1="0" y1="0" x2="0.254" y2="0" width="0.1524" layer="94"/>
 <wire x1="0.889" y1="1.524" x2="0.889" y2="-1.524" width="0.254" layer="94"/>
@@ -22233,22 +22242,22 @@ Jan Kandziora &amp;lt;jjj@gmx.de&amp;gt;</description>
 <wire x1="2.286" y1="0" x2="2.286" y2="-1.778" width="0.254" layer="94"/>
 <wire x1="0.254" y1="1.778" x2="0.254" y2="0" width="0.254" layer="94"/>
 <wire x1="0.254" y1="0" x2="0.254" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="1.905" x2="-1.778" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="-1.778" y1="2.54" x2="4.318" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="4.318" y1="2.54" x2="4.318" y2="1.905" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="4.318" y1="-1.905" x2="4.318" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="-1.778" y1="-2.54" x2="4.318" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-1.905" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-1.778" y1="1.905" x2="-1.778" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="4.318" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="2.54" x2="4.318" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="-1.905" x2="4.318" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="4.318" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-1.905" width="0.1524" layer="94"/>
+<pin name="GND1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="GND2" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="XTAL1" x="-2.54" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="XTAL2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <text x="-2.54" y="6.096" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="3.81" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="XTAL2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="XTAL1" x="-2.54" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
-<pin name="GND2" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="GND1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="GSX-533" prefix="Q">
+<deviceset name="GSX-533" urn="urn:adsk.eagle:component:4881007/2" prefix="Q" library_version="2">
 <gates>
 <gate name="G$1" symbol="Q-SHIELD2" x="0" y="0"/>
 </gates>
@@ -22260,6 +22269,9 @@ Jan Kandziora &amp;lt;jjj@gmx.de&amp;gt;</description>
 <connect gate="G$1" pin="XTAL1" pad="1"/>
 <connect gate="G$1" pin="XTAL2" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4881006/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -22394,7 +22406,7 @@ Jan Kandziora &amp;lt;jjj@gmx.de&amp;gt;</description>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="P+20" library="supply1" deviceset="+5V" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="Q1" library="GSX-533" deviceset="GSX-533" device=""/>
+<part name="Q1" library="crystal-golledge" library_urn="urn:adsk.eagle:library:4881003" deviceset="GSX-533" device="" package3d_urn="urn:adsk.eagle:package:4881006/2"/>
 </parts>
 <sheets>
 <sheet>
